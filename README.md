@@ -3,7 +3,7 @@ This repo contains the course materials and/or information and codes of our team
 
 Collaborators (without order):
 
-1- 
+1- Luke Fatovich
 
 2- Pouya Taghipour L. 
 
