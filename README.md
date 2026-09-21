@@ -7,9 +7,13 @@ Seventieth
 
 ## Team Members Present
 1- Luke Fatovich
+
 2- Pouya Taghipour L. 
+
 3- Hamid Salmani
+
 4- Dera Okemeziem
+
 5- David A. Martinez G.
 
 ## Candidate Project 1
