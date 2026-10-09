@@ -9,3 +9,7 @@ See the plot below:
 We can see that the data is mainly the fluctuations of different channels over time. Different subjects have different recording lengths, different ages, and MMSE scores.
 
 We can see an example of an artifact for the healthy control with a big spike at channel T5.
+
+We also visualized the amplitudes of all the subjects to see what kind of artifacts we should be worried about and guide our pre-processing.
+
+![EEG Amplitude](all_subjects_amplitude_overview.png)
