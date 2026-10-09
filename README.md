@@ -16,7 +16,7 @@ Seventieth
 
 5- David A. Martinez G.
 
-## Candidate Project 1
+## Project
 
 ### Biomedical Problem 
 
@@ -37,24 +37,4 @@ The greatest risk is that the result will be more optimistic than reality due to
   - Cross-epoch information leakage: With only ~88 subjects, if a subject’s training and test epochs overlap, the accuracy is inflated. Validation by subject is needed (leave-subject-out or nested CV), and even then, the variance will be high.
   - No external validation: all data comes from a single site and a single team, so I don’t know if the findings generalize to other clinics or setups.
 
-✅ **We are proceeding with this project**
-
 <img width="842" height="238" alt="2026-10-02_13-56-43" src="https://github.com/user-attachments/assets/1e0d80dd-26e9-4892-8862-419293fac6fe" />
-
-
-## Candidate Project 2
-
-### Biomedical Problem 
-
-The diagnosis of Parkinson's disease (PD) remains primarily clinical, and a biomarker based on resting-state EEG would be inexpensive and noninvasive. 
-
-### Possible Research Question
-
-
-
-### Dataset 
-
-OpenNeuro ds002778 (UC San Diego): Resting-state EEG, approximately 15 PD patients (with and without medication) and 16 controls.
-UNM datasets from the PRED+CT repository (Cavanagh et al.): PD patients and controls from a second site.
-
-### Biggest Uncertainty
