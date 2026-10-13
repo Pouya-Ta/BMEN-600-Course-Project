@@ -1,0 +1,12 @@
+.venv/
+data/
+cache/
+models/
+vendor/
+results/cache/
+*.set
+*.fdt
+*.pt
+*.pth
+# Large, reproducible epoch embedding cache; participant summaries/metrics stay visible.
+results/encoder_epoch_embeddings.csv.gz

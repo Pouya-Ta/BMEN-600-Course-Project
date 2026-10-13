@@ -1,0 +1,1819 @@
+{
+  "dataset": "ds004504",
+  "version": "1.0.9",
+  "git_commit": "63b2ec152bc3cd4487d131124f10f767ebe543bc",
+  "access_date": "2026-10-10",
+  "dataset_url": "https://openneuro.org/datasets/ds004504/versions/1.0.9",
+  "recording_inventory": [
+    "derivatives/sub-001/eeg/sub-001_task-eyesclosed_eeg.set",
+    "derivatives/sub-002/eeg/sub-002_task-eyesclosed_eeg.set",
+    "derivatives/sub-003/eeg/sub-003_task-eyesclosed_eeg.set",
+    "derivatives/sub-004/eeg/sub-004_task-eyesclosed_eeg.set",
+    "derivatives/sub-005/eeg/sub-005_task-eyesclosed_eeg.set",
+    "derivatives/sub-006/eeg/sub-006_task-eyesclosed_eeg.set",
+    "derivatives/sub-007/eeg/sub-007_task-eyesclosed_eeg.set",
+    "derivatives/sub-008/eeg/sub-008_task-eyesclosed_eeg.set",
+    "derivatives/sub-009/eeg/sub-009_task-eyesclosed_eeg.set",
+    "derivatives/sub-010/eeg/sub-010_task-eyesclosed_eeg.set",
+    "derivatives/sub-011/eeg/sub-011_task-eyesclosed_eeg.set",
+    "derivatives/sub-012/eeg/sub-012_task-eyesclosed_eeg.set",
+    "derivatives/sub-013/eeg/sub-013_task-eyesclosed_eeg.set",
+    "derivatives/sub-014/eeg/sub-014_task-eyesclosed_eeg.set",
+    "derivatives/sub-015/eeg/sub-015_task-eyesclosed_eeg.set",
+    "derivatives/sub-016/eeg/sub-016_task-eyesclosed_eeg.set",
+    "derivatives/sub-017/eeg/sub-017_task-eyesclosed_eeg.set",
+    "derivatives/sub-018/eeg/sub-018_task-eyesclosed_eeg.set",
+    "derivatives/sub-019/eeg/sub-019_task-eyesclosed_eeg.set",
+    "derivatives/sub-020/eeg/sub-020_task-eyesclosed_eeg.set",
+    "derivatives/sub-021/eeg/sub-021_task-eyesclosed_eeg.set",
+    "derivatives/sub-022/eeg/sub-022_task-eyesclosed_eeg.set",
+    "derivatives/sub-023/eeg/sub-023_task-eyesclosed_eeg.set",
+    "derivatives/sub-024/eeg/sub-024_task-eyesclosed_eeg.set",
+    "derivatives/sub-025/eeg/sub-025_task-eyesclosed_eeg.set",
+    "derivatives/sub-026/eeg/sub-026_task-eyesclosed_eeg.set",
+    "derivatives/sub-027/eeg/sub-027_task-eyesclosed_eeg.set",
+    "derivatives/sub-028/eeg/sub-028_task-eyesclosed_eeg.set",
+    "derivatives/sub-029/eeg/sub-029_task-eyesclosed_eeg.set",
+    "derivatives/sub-030/eeg/sub-030_task-eyesclosed_eeg.set",
+    "derivatives/sub-031/eeg/sub-031_task-eyesclosed_eeg.set",
+    "derivatives/sub-032/eeg/sub-032_task-eyesclosed_eeg.set",
+    "derivatives/sub-033/eeg/sub-033_task-eyesclosed_eeg.set",
+    "derivatives/sub-034/eeg/sub-034_task-eyesclosed_eeg.set",
+    "derivatives/sub-035/eeg/sub-035_task-eyesclosed_eeg.set",
+    "derivatives/sub-036/eeg/sub-036_task-eyesclosed_eeg.set",
+    "derivatives/sub-037/eeg/sub-037_task-eyesclosed_eeg.set",
+    "derivatives/sub-038/eeg/sub-038_task-eyesclosed_eeg.set",
+    "derivatives/sub-039/eeg/sub-039_task-eyesclosed_eeg.set",
+    "derivatives/sub-040/eeg/sub-040_task-eyesclosed_eeg.set",
+    "derivatives/sub-041/eeg/sub-041_task-eyesclosed_eeg.set",
+    "derivatives/sub-042/eeg/sub-042_task-eyesclosed_eeg.set",
+    "derivatives/sub-043/eeg/sub-043_task-eyesclosed_eeg.set",
+    "derivatives/sub-044/eeg/sub-044_task-eyesclosed_eeg.set",
+    "derivatives/sub-045/eeg/sub-045_task-eyesclosed_eeg.set",
+    "derivatives/sub-046/eeg/sub-046_task-eyesclosed_eeg.set",
+    "derivatives/sub-047/eeg/sub-047_task-eyesclosed_eeg.set",
+    "derivatives/sub-048/eeg/sub-048_task-eyesclosed_eeg.set",
+    "derivatives/sub-049/eeg/sub-049_task-eyesclosed_eeg.set",
+    "derivatives/sub-050/eeg/sub-050_task-eyesclosed_eeg.set",
+    "derivatives/sub-051/eeg/sub-051_task-eyesclosed_eeg.set",
+    "derivatives/sub-052/eeg/sub-052_task-eyesclosed_eeg.set",
+    "derivatives/sub-053/eeg/sub-053_task-eyesclosed_eeg.set",
+    "derivatives/sub-054/eeg/sub-054_task-eyesclosed_eeg.set",
+    "derivatives/sub-055/eeg/sub-055_task-eyesclosed_eeg.set",
+    "derivatives/sub-056/eeg/sub-056_task-eyesclosed_eeg.set",
+    "derivatives/sub-057/eeg/sub-057_task-eyesclosed_eeg.set",
+    "derivatives/sub-058/eeg/sub-058_task-eyesclosed_eeg.set",
+    "derivatives/sub-059/eeg/sub-059_task-eyesclosed_eeg.set",
+    "derivatives/sub-060/eeg/sub-060_task-eyesclosed_eeg.set",
+    "derivatives/sub-061/eeg/sub-061_task-eyesclosed_eeg.set",
+    "derivatives/sub-062/eeg/sub-062_task-eyesclosed_eeg.set",
+    "derivatives/sub-063/eeg/sub-063_task-eyesclosed_eeg.set",
+    "derivatives/sub-064/eeg/sub-064_task-eyesclosed_eeg.set",
+    "derivatives/sub-065/eeg/sub-065_task-eyesclosed_eeg.set",
+    "derivatives/sub-066/eeg/sub-066_task-eyesclosed_eeg.set",
+    "derivatives/sub-067/eeg/sub-067_task-eyesclosed_eeg.set",
+    "derivatives/sub-068/eeg/sub-068_task-eyesclosed_eeg.set",
+    "derivatives/sub-069/eeg/sub-069_task-eyesclosed_eeg.set",
+    "derivatives/sub-070/eeg/sub-070_task-eyesclosed_eeg.set",
+    "derivatives/sub-071/eeg/sub-071_task-eyesclosed_eeg.set",
+    "derivatives/sub-072/eeg/sub-072_task-eyesclosed_eeg.set",
+    "derivatives/sub-073/eeg/sub-073_task-eyesclosed_eeg.set",
+    "derivatives/sub-074/eeg/sub-074_task-eyesclosed_eeg.set",
+    "derivatives/sub-075/eeg/sub-075_task-eyesclosed_eeg.set",
+    "derivatives/sub-076/eeg/sub-076_task-eyesclosed_eeg.set",
+    "derivatives/sub-077/eeg/sub-077_task-eyesclosed_eeg.set",
+    "derivatives/sub-078/eeg/sub-078_task-eyesclosed_eeg.set",
+    "derivatives/sub-079/eeg/sub-079_task-eyesclosed_eeg.set",
+    "derivatives/sub-080/eeg/sub-080_task-eyesclosed_eeg.set",
+    "derivatives/sub-081/eeg/sub-081_task-eyesclosed_eeg.set",
+    "derivatives/sub-082/eeg/sub-082_task-eyesclosed_eeg.set",
+    "derivatives/sub-083/eeg/sub-083_task-eyesclosed_eeg.set",
+    "derivatives/sub-084/eeg/sub-084_task-eyesclosed_eeg.set",
+    "derivatives/sub-085/eeg/sub-085_task-eyesclosed_eeg.set",
+    "derivatives/sub-086/eeg/sub-086_task-eyesclosed_eeg.set",
+    "derivatives/sub-087/eeg/sub-087_task-eyesclosed_eeg.set",
+    "derivatives/sub-088/eeg/sub-088_task-eyesclosed_eeg.set",
+    "sub-001/eeg/sub-001_task-eyesclosed_eeg.set",
+    "sub-002/eeg/sub-002_task-eyesclosed_eeg.set",
+    "sub-003/eeg/sub-003_task-eyesclosed_eeg.set",
+    "sub-004/eeg/sub-004_task-eyesclosed_eeg.set",
+    "sub-005/eeg/sub-005_task-eyesclosed_eeg.set",
+    "sub-006/eeg/sub-006_task-eyesclosed_eeg.set",
+    "sub-007/eeg/sub-007_task-eyesclosed_eeg.set",
+    "sub-008/eeg/sub-008_task-eyesclosed_eeg.set",
+    "sub-009/eeg/sub-009_task-eyesclosed_eeg.set",
+    "sub-010/eeg/sub-010_task-eyesclosed_eeg.set",
+    "sub-011/eeg/sub-011_task-eyesclosed_eeg.set",
+    "sub-012/eeg/sub-012_task-eyesclosed_eeg.set",
+    "sub-013/eeg/sub-013_task-eyesclosed_eeg.set",
+    "sub-014/eeg/sub-014_task-eyesclosed_eeg.set",
+    "sub-015/eeg/sub-015_task-eyesclosed_eeg.set",
+    "sub-016/eeg/sub-016_task-eyesclosed_eeg.set",
+    "sub-017/eeg/sub-017_task-eyesclosed_eeg.set",
+    "sub-018/eeg/sub-018_task-eyesclosed_eeg.set",
+    "sub-019/eeg/sub-019_task-eyesclosed_eeg.set",
+    "sub-020/eeg/sub-020_task-eyesclosed_eeg.set",
+    "sub-021/eeg/sub-021_task-eyesclosed_eeg.set",
+    "sub-022/eeg/sub-022_task-eyesclosed_eeg.set",
+    "sub-023/eeg/sub-023_task-eyesclosed_eeg.set",
+    "sub-024/eeg/sub-024_task-eyesclosed_eeg.set",
+    "sub-025/eeg/sub-025_task-eyesclosed_eeg.set",
+    "sub-026/eeg/sub-026_task-eyesclosed_eeg.set",
+    "sub-027/eeg/sub-027_task-eyesclosed_eeg.set",
+    "sub-028/eeg/sub-028_task-eyesclosed_eeg.set",
+    "sub-029/eeg/sub-029_task-eyesclosed_eeg.set",
+    "sub-030/eeg/sub-030_task-eyesclosed_eeg.set",
+    "sub-031/eeg/sub-031_task-eyesclosed_eeg.set",
+    "sub-032/eeg/sub-032_task-eyesclosed_eeg.set",
+    "sub-033/eeg/sub-033_task-eyesclosed_eeg.set",
+    "sub-034/eeg/sub-034_task-eyesclosed_eeg.set",
+    "sub-035/eeg/sub-035_task-eyesclosed_eeg.set",
+    "sub-036/eeg/sub-036_task-eyesclosed_eeg.set",
+    "sub-037/eeg/sub-037_task-eyesclosed_eeg.set",
+    "sub-038/eeg/sub-038_task-eyesclosed_eeg.set",
+    "sub-039/eeg/sub-039_task-eyesclosed_eeg.set",
+    "sub-040/eeg/sub-040_task-eyesclosed_eeg.set",
+    "sub-041/eeg/sub-041_task-eyesclosed_eeg.set",
+    "sub-042/eeg/sub-042_task-eyesclosed_eeg.set",
+    "sub-043/eeg/sub-043_task-eyesclosed_eeg.set",
+    "sub-044/eeg/sub-044_task-eyesclosed_eeg.set",
+    "sub-045/eeg/sub-045_task-eyesclosed_eeg.set",
+    "sub-046/eeg/sub-046_task-eyesclosed_eeg.set",
+    "sub-047/eeg/sub-047_task-eyesclosed_eeg.set",
+    "sub-048/eeg/sub-048_task-eyesclosed_eeg.set",
+    "sub-049/eeg/sub-049_task-eyesclosed_eeg.set",
+    "sub-050/eeg/sub-050_task-eyesclosed_eeg.set",
+    "sub-051/eeg/sub-051_task-eyesclosed_eeg.set",
+    "sub-052/eeg/sub-052_task-eyesclosed_eeg.set",
+    "sub-053/eeg/sub-053_task-eyesclosed_eeg.set",
+    "sub-054/eeg/sub-054_task-eyesclosed_eeg.set",
+    "sub-055/eeg/sub-055_task-eyesclosed_eeg.set",
+    "sub-056/eeg/sub-056_task-eyesclosed_eeg.set",
+    "sub-057/eeg/sub-057_task-eyesclosed_eeg.set",
+    "sub-058/eeg/sub-058_task-eyesclosed_eeg.set",
+    "sub-059/eeg/sub-059_task-eyesclosed_eeg.set",
+    "sub-060/eeg/sub-060_task-eyesclosed_eeg.set",
+    "sub-061/eeg/sub-061_task-eyesclosed_eeg.set",
+    "sub-062/eeg/sub-062_task-eyesclosed_eeg.set",
+    "sub-063/eeg/sub-063_task-eyesclosed_eeg.set",
+    "sub-064/eeg/sub-064_task-eyesclosed_eeg.set",
+    "sub-065/eeg/sub-065_task-eyesclosed_eeg.set",
+    "sub-066/eeg/sub-066_task-eyesclosed_eeg.set",
+    "sub-067/eeg/sub-067_task-eyesclosed_eeg.set",
+    "sub-068/eeg/sub-068_task-eyesclosed_eeg.set",
+    "sub-069/eeg/sub-069_task-eyesclosed_eeg.set",
+    "sub-070/eeg/sub-070_task-eyesclosed_eeg.set",
+    "sub-071/eeg/sub-071_task-eyesclosed_eeg.set",
+    "sub-072/eeg/sub-072_task-eyesclosed_eeg.set",
+    "sub-073/eeg/sub-073_task-eyesclosed_eeg.set",
+    "sub-074/eeg/sub-074_task-eyesclosed_eeg.set",
+    "sub-075/eeg/sub-075_task-eyesclosed_eeg.set",
+    "sub-076/eeg/sub-076_task-eyesclosed_eeg.set",
+    "sub-077/eeg/sub-077_task-eyesclosed_eeg.set",
+    "sub-078/eeg/sub-078_task-eyesclosed_eeg.set",
+    "sub-079/eeg/sub-079_task-eyesclosed_eeg.set",
+    "sub-080/eeg/sub-080_task-eyesclosed_eeg.set",
+    "sub-081/eeg/sub-081_task-eyesclosed_eeg.set",
+    "sub-082/eeg/sub-082_task-eyesclosed_eeg.set",
+    "sub-083/eeg/sub-083_task-eyesclosed_eeg.set",
+    "sub-084/eeg/sub-084_task-eyesclosed_eeg.set",
+    "sub-085/eeg/sub-085_task-eyesclosed_eeg.set",
+    "sub-086/eeg/sub-086_task-eyesclosed_eeg.set",
+    "sub-087/eeg/sub-087_task-eyesclosed_eeg.set",
+    "sub-088/eeg/sub-088_task-eyesclosed_eeg.set"
+  ],
+  "files": [
+    {
+      "path": "CHANGES",
+      "sha256": "c8dede802008619762fb5c3d5c5f706774b21eb2f6d2182e23b26cd61d1d01a0",
+      "bytes": 500,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/CHANGES"
+    },
+    {
+      "path": "README",
+      "sha256": "a551f7e4844f09515499da342605cbdc8aff86a627057048da95748ea6d3b48a",
+      "bytes": 4168,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/README"
+    },
+    {
+      "path": "dataset_description.json",
+      "sha256": "5e9b3a8be6b0d682825815b0eeda1ef8ffcf6653a8ca9919285fb349d8231632",
+      "bytes": 2852,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/dataset_description.json"
+    },
+    {
+      "path": "derivatives/sub-001/eeg/sub-001_task-eyesclosed_eeg.set",
+      "sha256": "2bee41ac31694c06688bd4e36e4fd1233b4744c5ac80a822ec2a9cd67c5efe0d",
+      "bytes": 24357408,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-001/eeg/sub-001_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-002/eeg/sub-002_task-eyesclosed_eeg.set",
+      "sha256": "7996d30b453a6438d39f0059547b8ef50669f9f084111d05bfec694a14b59a2c",
+      "bytes": 32186728,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-002/eeg/sub-002_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-003/eeg/sub-003_task-eyesclosed_eeg.set",
+      "sha256": "6689383d189c2469b9f9786d2e0487d92cc215ca1eb1f729a792ed51ad9a9f9c",
+      "bytes": 13076664,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-003/eeg/sub-003_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-004/eeg/sub-004_task-eyesclosed_eeg.set",
+      "sha256": "e9a582edcdd5a6fffd1bb7232007ec11d29486dba46d0e5c45f260cb9e7b92b8",
+      "bytes": 30076328,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-004/eeg/sub-004_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-005/eeg/sub-005_task-eyesclosed_eeg.set",
+      "sha256": "befa4f7ac305c6faefb92fa0f82028327f51c277f5c5ecaf6271d669e7800291",
+      "bytes": 32631904,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-005/eeg/sub-005_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-006/eeg/sub-006_task-eyesclosed_eeg.set",
+      "sha256": "3b87b043aa7540910d7b9e4b871e1f11af1f2437ee2f1cfb6f6b14d86f36ee04",
+      "bytes": 26945984,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-006/eeg/sub-006_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-007/eeg/sub-007_task-eyesclosed_eeg.set",
+      "sha256": "d1aa601da8b8ecdf4f3ae7be1857aaca414209d2791b3cfdf02630a9258cfa1e",
+      "bytes": 32640632,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-007/eeg/sub-007_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-008/eeg/sub-008_task-eyesclosed_eeg.set",
+      "sha256": "30d3b20abae8fe15f9c4771da03ac090403a0adfeed2292fae67a4484a297b05",
+      "bytes": 33789504,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-008/eeg/sub-008_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-009/eeg/sub-009_task-eyesclosed_eeg.set",
+      "sha256": "6a22b93a1901593f2eb1fc600c03af8a54f318f4a8695745f5a65bfb63f76657",
+      "bytes": 26102248,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-009/eeg/sub-009_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-010/eeg/sub-010_task-eyesclosed_eeg.set",
+      "sha256": "514316b75b01095d987b50f286f8d1843da2f13d24dbac42d245af1378d4c777",
+      "bytes": 54545192,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-010/eeg/sub-010_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-011/eeg/sub-011_task-eyesclosed_eeg.set",
+      "sha256": "5f99ea3575b9b2f5c33f1c091d27c7a2119b105feab11dfbfa5187b764f6a998",
+      "bytes": 32788688,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-011/eeg/sub-011_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-012/eeg/sub-012_task-eyesclosed_eeg.set",
+      "sha256": "871259ec1ff9fa4bfda7f2ea92b1a9a597de716c28e4a4181616267206ec5b13",
+      "bytes": 37624784,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-012/eeg/sub-012_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-013/eeg/sub-013_task-eyesclosed_eeg.set",
+      "sha256": "cb34050f098bf22a3f8c2d2ad310ad7a26b336dd80707cd6c845c9ea051dde8a",
+      "bytes": 35687368,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-013/eeg/sub-013_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-014/eeg/sub-014_task-eyesclosed_eeg.set",
+      "sha256": "7de89cab9ba48b48f7c7d470f78ed1164488910e8ab905a293be376a3a2d8448",
+      "bytes": 39786624,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-014/eeg/sub-014_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-015/eeg/sub-015_task-eyesclosed_eeg.set",
+      "sha256": "ecc8fb5fd0c67f5ecfa61a98ad8c99c9fbb91ded460ae622e766ccbd3bb7b694",
+      "bytes": 38380232,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-015/eeg/sub-015_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-016/eeg/sub-016_task-eyesclosed_eeg.set",
+      "sha256": "5ed950cc3b031ca26d6edb8666225f6d8136fbbf6758869130ab27eef67ce914",
+      "bytes": 41399792,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-016/eeg/sub-016_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-017/eeg/sub-017_task-eyesclosed_eeg.set",
+      "sha256": "9ef28e09655f1b57fdd44eed4b594bbc4f89ce8630eb8a9acfb2ded9ece241e5",
+      "bytes": 35912800,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-017/eeg/sub-017_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-018/eeg/sub-018_task-eyesclosed_eeg.set",
+      "sha256": "a7a62ed9c6a3155d421fd0750c3a4cdec7f60b27dfc95be687092e1ede1552c7",
+      "bytes": 35984528,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-018/eeg/sub-018_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-019/eeg/sub-019_task-eyesclosed_eeg.set",
+      "sha256": "91b718e4ec88613f4b3f6a1105c909a8d524e9176801f46b69dcf0aabd010b09",
+      "bytes": 39108448,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-019/eeg/sub-019_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-020/eeg/sub-020_task-eyesclosed_eeg.set",
+      "sha256": "31ad3071940f98dc3abe7fb6079f2fbb65d4c07f7e81c9c318bd719035533050",
+      "bytes": 35272512,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-020/eeg/sub-020_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-021/eeg/sub-021_task-eyesclosed_eeg.set",
+      "sha256": "f5cee362ad4f1b7c7983bec413fbeff2813ad53c120663c2b62ae228f87abe65",
+      "bytes": 39179520,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-021/eeg/sub-021_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-022/eeg/sub-022_task-eyesclosed_eeg.set",
+      "sha256": "c6aa0f028980b37694c8f6c5eebf33a30251da88f82a275409fd84f0a14044f3",
+      "bytes": 34999360,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-022/eeg/sub-022_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-023/eeg/sub-023_task-eyesclosed_eeg.set",
+      "sha256": "6f76aa5f0f7e76e7c924f87dfe5cd4a54bdf205da1a39d050e51263462f28ea6",
+      "bytes": 35559904,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-023/eeg/sub-023_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-024/eeg/sub-024_task-eyesclosed_eeg.set",
+      "sha256": "20f9c037debb0a5123e50ddb23a9c724902573d9730ddf313d347154806468f2",
+      "bytes": 32362568,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-024/eeg/sub-024_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-025/eeg/sub-025_task-eyesclosed_eeg.set",
+      "sha256": "9f69af89ee60139680ee1255d8133433da3d858e786c88d34b698b89883f1c48",
+      "bytes": 29160688,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-025/eeg/sub-025_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-026/eeg/sub-026_task-eyesclosed_eeg.set",
+      "sha256": "cee439f692a00cca2ebadc9cab9bfbfdf0c53c80da92984874a0621486bd82cb",
+      "bytes": 38269992,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-026/eeg/sub-026_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-027/eeg/sub-027_task-eyesclosed_eeg.set",
+      "sha256": "8647c35865d88d35b96641774465a1848374da726e3d27af10cac3e67b4d9e1b",
+      "bytes": 35182824,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-027/eeg/sub-027_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-028/eeg/sub-028_task-eyesclosed_eeg.set",
+      "sha256": "456cef7bceecea7d73aa05204d40462939c46c0d587f727c2d258a872e766197",
+      "bytes": 34842544,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-028/eeg/sub-028_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-029/eeg/sub-029_task-eyesclosed_eeg.set",
+      "sha256": "976381a11cc2d05ab83dfa18ed2ea5b823de0b628123a7a87b56261a6e4d1c7e",
+      "bytes": 31377552,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-029/eeg/sub-029_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-030/eeg/sub-030_task-eyesclosed_eeg.set",
+      "sha256": "52ac5b13f2b9f63404d3ed9fa441f62cdcb007e18d0536d3948d2d6219ea415b",
+      "bytes": 23616688,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-030/eeg/sub-030_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-031/eeg/sub-031_task-eyesclosed_eeg.set",
+      "sha256": "b3aa5706a8105488c1804ebd3af84e0feb3617f60fd919fbc118cc1a5b3c93c5",
+      "bytes": 48977152,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-031/eeg/sub-031_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-032/eeg/sub-032_task-eyesclosed_eeg.set",
+      "sha256": "85df1c92af6da493a20aff8714ebe54b50a9ce0067800b2879141d225a8e38f1",
+      "bytes": 34006464,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-032/eeg/sub-032_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-033/eeg/sub-033_task-eyesclosed_eeg.set",
+      "sha256": "d84c49e0663506d46db48c6862d1591b88df3d15d50e0e51da73a87e138fb3dd",
+      "bytes": 30047768,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-033/eeg/sub-033_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-034/eeg/sub-034_task-eyesclosed_eeg.set",
+      "sha256": "d3bc3e0b4be18da274907ff65b3bbe3355ad6ef8d6b1ca6f3cbefae88585d9b6",
+      "bytes": 41287168,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-034/eeg/sub-034_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-035/eeg/sub-035_task-eyesclosed_eeg.set",
+      "sha256": "09deb5d9eab734e989c4c38d0296763b3697ab93ed46445f1a0fabf3fca964de",
+      "bytes": 31571112,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-035/eeg/sub-035_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-036/eeg/sub-036_task-eyesclosed_eeg.set",
+      "sha256": "0e2d814176e6f0f55245d339ec0fec12c1c014ac2933ecffd1e1da495e797c3c",
+      "bytes": 35830920,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-036/eeg/sub-036_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-037/eeg/sub-037_task-eyesclosed_eeg.set",
+      "sha256": "9921624e8bd740202cbb116a23f66fe9258378998bd0032bfefa47b7bf9d35d9",
+      "bytes": 31538736,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-037/eeg/sub-037_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-038/eeg/sub-038_task-eyesclosed_eeg.set",
+      "sha256": "cdc9cf5e704517ae645483f7f4af73644407510c99aede2b2ef9d114a5d7b8bb",
+      "bytes": 37952112,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-038/eeg/sub-038_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-039/eeg/sub-039_task-eyesclosed_eeg.set",
+      "sha256": "5576afeb06073f77760f4803dc4333e2c77ddb25e40cf3af54343b665214e593",
+      "bytes": 36199128,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-039/eeg/sub-039_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-040/eeg/sub-040_task-eyesclosed_eeg.set",
+      "sha256": "20279f151615d595e925631f226110b6ee02691f0c5dee1223f8176f1e645e4f",
+      "bytes": 41142360,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-040/eeg/sub-040_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-041/eeg/sub-041_task-eyesclosed_eeg.set",
+      "sha256": "6643ac4b575fcb6cf03329274034a345077ebd39cbf0e4d8daa647d5c395eadb",
+      "bytes": 37725664,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-041/eeg/sub-041_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-042/eeg/sub-042_task-eyesclosed_eeg.set",
+      "sha256": "88aed8afce7b3ffc2ff879713c5dcf95048c3583691c01d7bef850fc680c294b",
+      "bytes": 41001992,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-042/eeg/sub-042_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-043/eeg/sub-043_task-eyesclosed_eeg.set",
+      "sha256": "b16d7982c0660c627c25e758698937ce58f046f08f39fe4df17452dab2f65f1b",
+      "bytes": 33644736,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-043/eeg/sub-043_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-044/eeg/sub-044_task-eyesclosed_eeg.set",
+      "sha256": "89f84d55abd8ca9d37fae77bd5735956f4f98fcc72a8e9d8e33b9881499eb422",
+      "bytes": 35770656,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-044/eeg/sub-044_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-045/eeg/sub-045_task-eyesclosed_eeg.set",
+      "sha256": "06872ef2c34385452a7bb106acfc2c773b88a72898e27554b822568ed6ac3e3b",
+      "bytes": 36267832,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-045/eeg/sub-045_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-046/eeg/sub-046_task-eyesclosed_eeg.set",
+      "sha256": "1a1dc77cc8be6b6405e89876757da3db75cd11c08a33f7613c02a4606c91fe1a",
+      "bytes": 32074040,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-046/eeg/sub-046_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-047/eeg/sub-047_task-eyesclosed_eeg.set",
+      "sha256": "94ed76a3ddc87d8adb0db946fefdbfa18dbfae7cdfae4ee9e1aec9dbb7d39eb7",
+      "bytes": 34364248,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-047/eeg/sub-047_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-048/eeg/sub-048_task-eyesclosed_eeg.set",
+      "sha256": "b749f9e3058dbb3398ce498d1f205c68b5a4312e4f766c8e37f3452b8ed26bd0",
+      "bytes": 42150744,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-048/eeg/sub-048_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-049/eeg/sub-049_task-eyesclosed_eeg.set",
+      "sha256": "98f2b1baf832eae2357754a0d5be50ca01ad0ed5b9d0f0e786e85d51d6572a3e",
+      "bytes": 33226992,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-049/eeg/sub-049_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-050/eeg/sub-050_task-eyesclosed_eeg.set",
+      "sha256": "a5340e8a7feb7e35595ca512bf4c4e0478ed1bfac762afd9d014be3e77731c54",
+      "bytes": 34821776,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-050/eeg/sub-050_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-051/eeg/sub-051_task-eyesclosed_eeg.set",
+      "sha256": "568e5f06f280ae7dc31256b0637f1f610183fd5ff72f30dca6214e33f3c739e0",
+      "bytes": 32103976,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-051/eeg/sub-051_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-052/eeg/sub-052_task-eyesclosed_eeg.set",
+      "sha256": "068e3687d2dff59ff1b790485236551439136c6d139e2e88d9d26e47d7d83b47",
+      "bytes": 32371008,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-052/eeg/sub-052_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-053/eeg/sub-053_task-eyesclosed_eeg.set",
+      "sha256": "c06142af0699bdf65b61e6457609cf40b92587e59d98f03fd84d69816285b1ed",
+      "bytes": 33250384,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-053/eeg/sub-053_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-054/eeg/sub-054_task-eyesclosed_eeg.set",
+      "sha256": "53e5b0f56b67f33d6c02ad277fda1d57d383ccb27b43c2c19f39beb5aaf7a3ca",
+      "bytes": 35668024,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-054/eeg/sub-054_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-055/eeg/sub-055_task-eyesclosed_eeg.set",
+      "sha256": "9d65d41bac4803e47e328b8c586aa82866805d89e77c2a6183c520df467df0f9",
+      "bytes": 34692736,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-055/eeg/sub-055_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-056/eeg/sub-056_task-eyesclosed_eeg.set",
+      "sha256": "9a8fbb0923d836bd5aa29010124828f794648beb4b52eabf7c046e4586b41ba3",
+      "bytes": 33755288,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-056/eeg/sub-056_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-057/eeg/sub-057_task-eyesclosed_eeg.set",
+      "sha256": "4a0b8095a0f0f75ffb65ba96d1555c50a3e2522d53f71013957d3a287322e800",
+      "bytes": 32324112,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-057/eeg/sub-057_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-058/eeg/sub-058_task-eyesclosed_eeg.set",
+      "sha256": "f5a8ca25a68bfdf219d2399d31575ff901c824afc5b1cb76f84ac7d1bfc10df9",
+      "bytes": 32233184,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-058/eeg/sub-058_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-059/eeg/sub-059_task-eyesclosed_eeg.set",
+      "sha256": "fb6bd8c4d81efa76eb54c9025b788c04f0944a9bab602d97999995b01555a16b",
+      "bytes": 33520392,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-059/eeg/sub-059_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-060/eeg/sub-060_task-eyesclosed_eeg.set",
+      "sha256": "fe203229a97787a46cecde4d8e1abfe90b60183b65e99e35393793bff8e76adf",
+      "bytes": 31878360,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-060/eeg/sub-060_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-061/eeg/sub-061_task-eyesclosed_eeg.set",
+      "sha256": "edb69e0e90c8489d63fe801fe8c5fec4cedc655ec6b14f56b18a42f726280f65",
+      "bytes": 34208384,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-061/eeg/sub-061_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-062/eeg/sub-062_task-eyesclosed_eeg.set",
+      "sha256": "b75b58ca0f404bec77680fac09555091799dc902338376a8f262cbb3bdb4b246",
+      "bytes": 38269768,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-062/eeg/sub-062_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-063/eeg/sub-063_task-eyesclosed_eeg.set",
+      "sha256": "5c61ab2332d33e62e16ba3f4749625825d23ea12c50630d92ec3a576525e1f14",
+      "bytes": 34278776,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-063/eeg/sub-063_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-064/eeg/sub-064_task-eyesclosed_eeg.set",
+      "sha256": "4e0162e511499bfdd958ae8ba84aad1048b6cf106580643135eb67866358a0a0",
+      "bytes": 36111008,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-064/eeg/sub-064_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-065/eeg/sub-065_task-eyesclosed_eeg.set",
+      "sha256": "a9220b46810a2b187037e669bc59840d2923161ada06bc471a2b962dc1895b43",
+      "bytes": 35871912,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-065/eeg/sub-065_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-066/eeg/sub-066_task-eyesclosed_eeg.set",
+      "sha256": "cd323034017eea41f5c9ecc1f7535a30c0326f59e1c4d85bf3a6cec7ab8bda52",
+      "bytes": 23431728,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-066/eeg/sub-066_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-067/eeg/sub-067_task-eyesclosed_eeg.set",
+      "sha256": "d7e2b5f66437c30643ad28ca8730c4b1b7b5bbb6037ab38249f8d29d78bdba8f",
+      "bytes": 26111736,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-067/eeg/sub-067_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-068/eeg/sub-068_task-eyesclosed_eeg.set",
+      "sha256": "62fac557c99a1914d7f819343b7ddba66053e74f095f337240c3a5214856b7fe",
+      "bytes": 24423840,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-068/eeg/sub-068_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-069/eeg/sub-069_task-eyesclosed_eeg.set",
+      "sha256": "d16e501268da0b4d4fd873c32906fd404a9d7c527dac384ffdd08377efb80282",
+      "bytes": 27101336,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-069/eeg/sub-069_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-070/eeg/sub-070_task-eyesclosed_eeg.set",
+      "sha256": "9f50e2e825a33961ffed6f6da35d942de20c92268feafdecd610bad188781faf",
+      "bytes": 19469064,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-070/eeg/sub-070_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-071/eeg/sub-071_task-eyesclosed_eeg.set",
+      "sha256": "73639ad2c30a4d33305640fef7da944699cb80fbf205f51991e55294bef7fe79",
+      "bytes": 26371896,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-071/eeg/sub-071_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-072/eeg/sub-072_task-eyesclosed_eeg.set",
+      "sha256": "94feae216ee0e44d2858bf66b85b573fabc5a45fd4c45e590025107106cfcc7a",
+      "bytes": 28024888,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-072/eeg/sub-072_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-073/eeg/sub-073_task-eyesclosed_eeg.set",
+      "sha256": "13462b8c825e45cb2d4e5097cbbed5e46a52cb4ce007fb359bcc47ca2883d00b",
+      "bytes": 36387608,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-073/eeg/sub-073_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-074/eeg/sub-074_task-eyesclosed_eeg.set",
+      "sha256": "323d400ad2e18106de90ca7ed5192deaa7d8b8f3e2aa3188f13744db3e3acbaf",
+      "bytes": 43190576,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-074/eeg/sub-074_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-075/eeg/sub-075_task-eyesclosed_eeg.set",
+      "sha256": "98d0bffea203d140f1385a41c219e9f5bc3e6b71ad89c3c825e61a7875e0c271",
+      "bytes": 31865608,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-075/eeg/sub-075_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-076/eeg/sub-076_task-eyesclosed_eeg.set",
+      "sha256": "2b5f954943899f88157eace7532785a34d62a5c7cdcc98f34cf926be6ac3238d",
+      "bytes": 33227256,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-076/eeg/sub-076_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-077/eeg/sub-077_task-eyesclosed_eeg.set",
+      "sha256": "5d23325eca733ae0ef9bd4ce1d1352d9869830ffd0933e2d90c77e8a7a0276bb",
+      "bytes": 29782968,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-077/eeg/sub-077_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-078/eeg/sub-078_task-eyesclosed_eeg.set",
+      "sha256": "3dd1baae55cceaaae0359a5bfcd83e8dbd65c6c0e28f0f2a2ff1e9e870970504",
+      "bytes": 37082904,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-078/eeg/sub-078_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-079/eeg/sub-079_task-eyesclosed_eeg.set",
+      "sha256": "c53402e00fe8e65d283a257c84365abe53e74cc97a21bd54463f6bde793a6fdd",
+      "bytes": 34780448,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-079/eeg/sub-079_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-080/eeg/sub-080_task-eyesclosed_eeg.set",
+      "sha256": "a8dd6fccc53a582fdd3278995edd654bb39aafffb92d20eb1dca803328328991",
+      "bytes": 38969512,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-080/eeg/sub-080_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-081/eeg/sub-081_task-eyesclosed_eeg.set",
+      "sha256": "22352b2257891716a26e8787b812e4ff11df389abde1bb4f2554662def9b0c72",
+      "bytes": 35109744,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-081/eeg/sub-081_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-082/eeg/sub-082_task-eyesclosed_eeg.set",
+      "sha256": "18aa69628a62676b2b679edeb90c123d5de237f1a4f7d63b7e75d58a753445d3",
+      "bytes": 31559320,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-082/eeg/sub-082_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-083/eeg/sub-083_task-eyesclosed_eeg.set",
+      "sha256": "8cd414126e564a2d0e34bf622a69602e8f378d3e8dd16612a9b7d303823eab88",
+      "bytes": 37050784,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-083/eeg/sub-083_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-084/eeg/sub-084_task-eyesclosed_eeg.set",
+      "sha256": "0b99404c8b7eef25be6746686ceaf12975d9c6ecf4569c45e24a5dc61042f098",
+      "bytes": 26475912,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-084/eeg/sub-084_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-085/eeg/sub-085_task-eyesclosed_eeg.set",
+      "sha256": "3498d4a95aeb30d28034a7713b480e450fb3fc04faa0df17a94672122d5bf6e9",
+      "bytes": 23872736,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-085/eeg/sub-085_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-086/eeg/sub-086_task-eyesclosed_eeg.set",
+      "sha256": "7e5e1da143fff33cd62b88735a358b1b05a388e1d775c8c8fe23c0544babe2e5",
+      "bytes": 24714304,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-086/eeg/sub-086_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-087/eeg/sub-087_task-eyesclosed_eeg.set",
+      "sha256": "0974feca278c7e5d7cd9f0c51ba74f1b037d61662c7be111a1d7c9949ba1e417",
+      "bytes": 25685272,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-087/eeg/sub-087_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "derivatives/sub-088/eeg/sub-088_task-eyesclosed_eeg.set",
+      "sha256": "f34f5e7e62dad1a4722acf5b007dc1f2744018fff3d5f5fa5caa1872c61debc3",
+      "bytes": 33421328,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/derivatives/sub-088/eeg/sub-088_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "participants.json",
+      "sha256": "e479ba99b89ca756d8894ec14665780eada7c0e831ca2422699439d9ae98740c",
+      "bytes": 613,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/participants.json"
+    },
+    {
+      "path": "participants.tsv",
+      "sha256": "bd17cf02ec9733c9029d4a6d977b2918309b3c667ff9ceb1b5dce6e3cebccbc1",
+      "bytes": 1706,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/participants.tsv"
+    },
+    {
+      "path": "sub-001/eeg/sub-001_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-001/eeg/sub-001_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-001/eeg/sub-001_task-eyesclosed_eeg.json",
+      "sha256": "cece7c2b5a9afe4bf39411596bea6bbb32dddde1cfd489d2c25b951cca62032d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-001/eeg/sub-001_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-001/eeg/sub-001_task-eyesclosed_eeg.set",
+      "sha256": "98e923d2d4d5682882ef8254da3a1060d305287b26eed9af61cbbce558e885c3",
+      "bytes": 24022128,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/sub-001/eeg/sub-001_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-002/eeg/sub-002_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-eyesclosed_eeg.json",
+      "sha256": "65c5ac052b8f2dc6b1d6fc4ee239ef6f3bf26ad4e1fe0de8153ac25abc109a40",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-002/eeg/sub-002_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-003/eeg/sub-003_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-eyesclosed_eeg.json",
+      "sha256": "a40bf89d00648c29bf7ad25adf278b534d38373c2e5bd0cf36350ef84dde3212",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-003/eeg/sub-003_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-004/eeg/sub-004_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-eyesclosed_eeg.json",
+      "sha256": "f8666c1d24b0ce642e097d17748d058db37621f9863e6a446ddcb11200addb8b",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-004/eeg/sub-004_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-005/eeg/sub-005_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-eyesclosed_eeg.json",
+      "sha256": "f197f6ed1e2195f14d7fe6dc41d1574a43d31c2c0dcc909e057db0b9221cf91c",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-005/eeg/sub-005_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-006/eeg/sub-006_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-eyesclosed_eeg.json",
+      "sha256": "a24300284d7626e184cd122f0318d7889a04eb646e4b165640b61e5aae5b4e78",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-006/eeg/sub-006_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-007/eeg/sub-007_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-eyesclosed_eeg.json",
+      "sha256": "c7a4aa3c2581753d0f47e75bf2017741b4944f86a9fe4b45b8768ee1c417b5b5",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-007/eeg/sub-007_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-008/eeg/sub-008_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-eyesclosed_eeg.json",
+      "sha256": "ab8b56843b2e223a2e6cd8101fea79601b6dce7726d3e1ee2a35abe8c7f482e6",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-008/eeg/sub-008_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-009/eeg/sub-009_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-eyesclosed_eeg.json",
+      "sha256": "ca90170b28bec6a5348301749ad3363964f6c59e1bde2c92285a50897e5761c4",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-009/eeg/sub-009_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-010/eeg/sub-010_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-eyesclosed_eeg.json",
+      "sha256": "b7b419c2d5cfcfe3c70bdc9699e73a667219e8b47a216016da1a974695e4377f",
+      "bytes": 869,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-010/eeg/sub-010_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-011/eeg/sub-011_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-eyesclosed_eeg.json",
+      "sha256": "c482bc3988df82eca13606936e5f01d7ac022f83aafc9165248524a84aa21660",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-011/eeg/sub-011_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-012/eeg/sub-012_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-eyesclosed_eeg.json",
+      "sha256": "f2bb71d02a55be358a1080ee0e0ee6b44fce896f4974645a06cbbc7271904c49",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-012/eeg/sub-012_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-013/eeg/sub-013_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-eyesclosed_eeg.json",
+      "sha256": "98589866d4268427040aec0b9d76fbb42de1fca50daa14d5a9dbdf461fc50188",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-013/eeg/sub-013_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-014/eeg/sub-014_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-eyesclosed_eeg.json",
+      "sha256": "11c2b98baad0eb9fc0ec9cc08ac440e32d0c52ad071ffe69cc2a0cd123994bbf",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-014/eeg/sub-014_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-015/eeg/sub-015_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-eyesclosed_eeg.json",
+      "sha256": "007be13ddfabbfb23a522dc6c85e632bbb0dbb56ffc6d881c1bb017df0c018a7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-015/eeg/sub-015_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-016/eeg/sub-016_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-eyesclosed_eeg.json",
+      "sha256": "ab8dd6ba467a3d375e6219f76a8a8273902cfaca04d1a2ceff758fba7ab6ba2c",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-016/eeg/sub-016_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-017/eeg/sub-017_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-eyesclosed_eeg.json",
+      "sha256": "254d5b75d144a06f474a008057f5e9e9b891adfc61f46dfd9d52da8c6a731a43",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-017/eeg/sub-017_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-018/eeg/sub-018_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-eyesclosed_eeg.json",
+      "sha256": "254d5b75d144a06f474a008057f5e9e9b891adfc61f46dfd9d52da8c6a731a43",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-018/eeg/sub-018_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-019/eeg/sub-019_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-eyesclosed_eeg.json",
+      "sha256": "04af3216f50eccb06b5bc11952446157a76106cb20c8b76e804e184e4f92c353",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-019/eeg/sub-019_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-020/eeg/sub-020_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-020/eeg/sub-020_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-020/eeg/sub-020_task-eyesclosed_eeg.json",
+      "sha256": "d512dc84244e6a7d8566cf235fbb93135dd98d56a13e7089ae4cf5c5adb2059d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-020/eeg/sub-020_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-021/eeg/sub-021_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-021/eeg/sub-021_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-021/eeg/sub-021_task-eyesclosed_eeg.json",
+      "sha256": "950f66d83c0b17f63e540abb3ef42de6d3c1e1c918934db756401af99efd6e3d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-021/eeg/sub-021_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-022/eeg/sub-022_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-022/eeg/sub-022_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-022/eeg/sub-022_task-eyesclosed_eeg.json",
+      "sha256": "d5dc59abe2c4516cd0f62ef69292dbb7d3e5f016232546f00497453bed94c61a",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-022/eeg/sub-022_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-023/eeg/sub-023_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-023/eeg/sub-023_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-023/eeg/sub-023_task-eyesclosed_eeg.json",
+      "sha256": "f9de18d2af2b3c5818985dffa674bb911d373b53bfee989c5fac7ab08796bfe1",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-023/eeg/sub-023_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-024/eeg/sub-024_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-024/eeg/sub-024_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-024/eeg/sub-024_task-eyesclosed_eeg.json",
+      "sha256": "ff72ae8278db529228b4ab32971a69651dfb58bbb14ec97b42d01c61d6cff715",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-024/eeg/sub-024_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-025/eeg/sub-025_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-025/eeg/sub-025_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-025/eeg/sub-025_task-eyesclosed_eeg.json",
+      "sha256": "2a6b8d2ac13427dfb7cb2399a6c64c67c52a0d04428e696ab6436d915a2777d2",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-025/eeg/sub-025_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-026/eeg/sub-026_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-026/eeg/sub-026_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-026/eeg/sub-026_task-eyesclosed_eeg.json",
+      "sha256": "1d90dabca3eadc6fb53c1c86e62282b0f3233ae9f3c2f7723f00f61d381f6d84",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-026/eeg/sub-026_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-027/eeg/sub-027_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-027/eeg/sub-027_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-027/eeg/sub-027_task-eyesclosed_eeg.json",
+      "sha256": "e79cff874f8774d5c0e38b66aadc2570610d7fa236db6342a9d03f0f0ce17782",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-027/eeg/sub-027_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-028/eeg/sub-028_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-028/eeg/sub-028_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-028/eeg/sub-028_task-eyesclosed_eeg.json",
+      "sha256": "2a6ecfe841205f8ff42de40aa7b5addf9d2995ababee34732891ad800dd89652",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-028/eeg/sub-028_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-029/eeg/sub-029_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-029/eeg/sub-029_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-029/eeg/sub-029_task-eyesclosed_eeg.json",
+      "sha256": "f14706a8c53d8f246af1850f555e3b16c4093569e15b47cecfab7a37d29de57e",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-029/eeg/sub-029_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-030/eeg/sub-030_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-030/eeg/sub-030_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-030/eeg/sub-030_task-eyesclosed_eeg.json",
+      "sha256": "f85f2cdef934da863b9e0872ca34fdb5d9c75a5d9402be67a944335136928a67",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-030/eeg/sub-030_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-031/eeg/sub-031_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-031/eeg/sub-031_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-031/eeg/sub-031_task-eyesclosed_eeg.json",
+      "sha256": "b034dce17fd55e386cc10c757457282d0dbb4db4f52a8addd8d22d0d2c8679c2",
+      "bytes": 869,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-031/eeg/sub-031_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-032/eeg/sub-032_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-032/eeg/sub-032_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-032/eeg/sub-032_task-eyesclosed_eeg.json",
+      "sha256": "bc0ab9b9d8e09f80fdfebad8c2ada4ce339e71cd47fb20ec7fec2556a386fa09",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-032/eeg/sub-032_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-033/eeg/sub-033_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-033/eeg/sub-033_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-033/eeg/sub-033_task-eyesclosed_eeg.json",
+      "sha256": "f8666c1d24b0ce642e097d17748d058db37621f9863e6a446ddcb11200addb8b",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-033/eeg/sub-033_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-034/eeg/sub-034_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-034/eeg/sub-034_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-034/eeg/sub-034_task-eyesclosed_eeg.json",
+      "sha256": "5ece0cb17be850312a47218f98fed05d7dd6a928b064f430a602869d7774ce87",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-034/eeg/sub-034_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-035/eeg/sub-035_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-035/eeg/sub-035_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-035/eeg/sub-035_task-eyesclosed_eeg.json",
+      "sha256": "a076dcb61be43fab3deb7f3680d33c8cd1e6559615975cbf5360bdd833409d8b",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-035/eeg/sub-035_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-036/eeg/sub-036_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-036/eeg/sub-036_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-036/eeg/sub-036_task-eyesclosed_eeg.json",
+      "sha256": "14ed64f06d3655d57634664bf392a8bb2944d9c47d7faeb2faeda41f1971d6c7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-036/eeg/sub-036_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-037/eeg/sub-037_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-037/eeg/sub-037_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-037/eeg/sub-037_task-eyesclosed_eeg.json",
+      "sha256": "e057e552aa6a16c37fb4916156e7fe18a0cf26003adcb0075064083bf430b00b",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-037/eeg/sub-037_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-037/eeg/sub-037_task-eyesclosed_eeg.set",
+      "sha256": "f5893131a1b9f868d78fd8406a3235d6165e82fa78ecd6bcf4046fcaa9a9b92d",
+      "bytes": 31130816,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/sub-037/eeg/sub-037_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "sub-038/eeg/sub-038_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-038/eeg/sub-038_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-038/eeg/sub-038_task-eyesclosed_eeg.json",
+      "sha256": "6950996ade942472897cb6b5c2bdc32504768a0c83b92fe521d466b3dcb72ad2",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-038/eeg/sub-038_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-039/eeg/sub-039_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-039/eeg/sub-039_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-039/eeg/sub-039_task-eyesclosed_eeg.json",
+      "sha256": "cc668c0cba67b7918fa1a5d5d7f412905b8f9303a9130d1503094e73f196d948",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-039/eeg/sub-039_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-040/eeg/sub-040_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-040/eeg/sub-040_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-040/eeg/sub-040_task-eyesclosed_eeg.json",
+      "sha256": "8f14c28060d63c0ec72cf83a8e9bdd0c6b487acc392539285db4f1277d01f7ab",
+      "bytes": 869,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-040/eeg/sub-040_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-041/eeg/sub-041_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-041/eeg/sub-041_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-041/eeg/sub-041_task-eyesclosed_eeg.json",
+      "sha256": "05c4a7b20ea691e912c48a33503841a7e04f37fb98466abe9a398def8dc15aa1",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-041/eeg/sub-041_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-042/eeg/sub-042_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-042/eeg/sub-042_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-042/eeg/sub-042_task-eyesclosed_eeg.json",
+      "sha256": "c07d871bad59de8f3ec847e3c96e71ab4bef2f4d5f5dee0392a6e275c71dd46d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-042/eeg/sub-042_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-043/eeg/sub-043_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-043/eeg/sub-043_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-043/eeg/sub-043_task-eyesclosed_eeg.json",
+      "sha256": "10a6d585fdb2a83ea98f9c3d0ca368b9288afab5f4f95a843fb7ea1ce8280f9d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-043/eeg/sub-043_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-044/eeg/sub-044_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-044/eeg/sub-044_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-044/eeg/sub-044_task-eyesclosed_eeg.json",
+      "sha256": "a40dc5309bba0e88f6183cb7b0447489ac94a4f448a25fd2e901b3d941ebcac3",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-044/eeg/sub-044_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-045/eeg/sub-045_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-045/eeg/sub-045_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-045/eeg/sub-045_task-eyesclosed_eeg.json",
+      "sha256": "6f42d26dfcad78ec47a4b9821f19e7343f1038fb222a3a16710d3def289a73a7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-045/eeg/sub-045_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-046/eeg/sub-046_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-046/eeg/sub-046_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-046/eeg/sub-046_task-eyesclosed_eeg.json",
+      "sha256": "9585fc9bf3da3853c03eedba85b21e16682b6e4dce13fa1b6d4b7f57b9edf6d5",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-046/eeg/sub-046_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-047/eeg/sub-047_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-047/eeg/sub-047_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-047/eeg/sub-047_task-eyesclosed_eeg.json",
+      "sha256": "b6cac1add3e9e2b839080e7c850698fbbee507ab60bc212348c73daaf6270456",
+      "bytes": 866,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-047/eeg/sub-047_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-048/eeg/sub-048_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-048/eeg/sub-048_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-048/eeg/sub-048_task-eyesclosed_eeg.json",
+      "sha256": "de1fb25c6ff0d8e9e290a67a453cbdceb55d47f94fc24cc3041cd7f67b292e06",
+      "bytes": 869,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-048/eeg/sub-048_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-049/eeg/sub-049_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-049/eeg/sub-049_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-049/eeg/sub-049_task-eyesclosed_eeg.json",
+      "sha256": "cc5bf23cd74cbabd15d44bf6ed7f5d5a0d934724b79be64ddb397c208a302549",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-049/eeg/sub-049_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-050/eeg/sub-050_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-050/eeg/sub-050_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-050/eeg/sub-050_task-eyesclosed_eeg.json",
+      "sha256": "5e330f0c1e86de032cd99e1836a7a365d8075244c4613432a76248a447c0f3e7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-050/eeg/sub-050_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-051/eeg/sub-051_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-051/eeg/sub-051_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-051/eeg/sub-051_task-eyesclosed_eeg.json",
+      "sha256": "78ce37c02b360c252aea35eacca4296374c93678b0b726686c5173bd6c33d2c8",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-051/eeg/sub-051_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-052/eeg/sub-052_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-052/eeg/sub-052_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-052/eeg/sub-052_task-eyesclosed_eeg.json",
+      "sha256": "96a8e60ce58626ada92a7998f6e912cf6282c17c16fb4bd971e1888f8eb2d194",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-052/eeg/sub-052_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-053/eeg/sub-053_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-053/eeg/sub-053_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-053/eeg/sub-053_task-eyesclosed_eeg.json",
+      "sha256": "4b92a742ce83bf5fe34d585a299488471548fce802e52d850a453a31abaebd7e",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-053/eeg/sub-053_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-054/eeg/sub-054_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-054/eeg/sub-054_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-054/eeg/sub-054_task-eyesclosed_eeg.json",
+      "sha256": "178a87c408cc8c16348b9cfbf480d56b7fe3cae4c21654356cfab6679595f04c",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-054/eeg/sub-054_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-055/eeg/sub-055_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-eyesclosed_eeg.json",
+      "sha256": "e4cdc8248c80a11eba012795af63136edcc9af543c473c8bb9ef8c5b88933a59",
+      "bytes": 866,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-055/eeg/sub-055_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-056/eeg/sub-056_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-056/eeg/sub-056_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-056/eeg/sub-056_task-eyesclosed_eeg.json",
+      "sha256": "67a88c1ea792497be5b7ca11eb0978a126039f6bf2a675660d46369ab86350b2",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-056/eeg/sub-056_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-057/eeg/sub-057_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-057/eeg/sub-057_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-057/eeg/sub-057_task-eyesclosed_eeg.json",
+      "sha256": "e2fa9fc39e8771281ec318d7429ca5bdc461c20be8269942bb3128d6f0c581e1",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-057/eeg/sub-057_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-058/eeg/sub-058_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-eyesclosed_eeg.json",
+      "sha256": "0bee48a63cc9bdb2ba42fd2a887b9248fe35001fef025611ff1163cd74c6ba2d",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-058/eeg/sub-058_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-059/eeg/sub-059_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-059/eeg/sub-059_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-059/eeg/sub-059_task-eyesclosed_eeg.json",
+      "sha256": "8e087b8a7066e6a097c2885b59054376d3dd3c3fe1a9ca8b4f99b7a17b88fda8",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-059/eeg/sub-059_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-060/eeg/sub-060_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-060/eeg/sub-060_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-060/eeg/sub-060_task-eyesclosed_eeg.json",
+      "sha256": "7e2bb9f5e072ec09197f3391edc0b830ba5e56d5f7e8a436f4b5a6b5bf0bfe84",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-060/eeg/sub-060_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-061/eeg/sub-061_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-eyesclosed_eeg.json",
+      "sha256": "7e27101e2b29001c0b00fb3151d4b33d06e9a8499c571a4b165236307d1b4707",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-061/eeg/sub-061_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-062/eeg/sub-062_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-eyesclosed_eeg.json",
+      "sha256": "a631d3091327a1877d85b688a2916f73180988951ccbf1b70fa38ee0202d3921",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-062/eeg/sub-062_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-063/eeg/sub-063_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-063/eeg/sub-063_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-063/eeg/sub-063_task-eyesclosed_eeg.json",
+      "sha256": "314b65a876e24138a1f7ff675c55ec7b72cf10cece02540937cc319b09164f9b",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-063/eeg/sub-063_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-064/eeg/sub-064_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-064/eeg/sub-064_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-064/eeg/sub-064_task-eyesclosed_eeg.json",
+      "sha256": "4819bd06fcace2df04b3892dd1c8c83187a610078e43e9cfebb2cefb04ab5c92",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-064/eeg/sub-064_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-065/eeg/sub-065_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-eyesclosed_eeg.json",
+      "sha256": "cc130c9e0084b57d9b1e7bbcfe8cdc17dd9da72de5e97d9b7cfb17849cc80e1f",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-065/eeg/sub-065_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-066/eeg/sub-066_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-066/eeg/sub-066_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-066/eeg/sub-066_task-eyesclosed_eeg.json",
+      "sha256": "9258751d7baf5a11706d5b84ee1186ec39ee73c396cb4361a9b473e44463f6e4",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-066/eeg/sub-066_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-066/eeg/sub-066_task-eyesclosed_eeg.set",
+      "sha256": "82022e582b6828730f582981ed7009298a9a0498f38a10eef94130634104c821",
+      "bytes": 22090816,
+      "url": "https://s3.amazonaws.com/openneuro.org/ds004504/sub-066/eeg/sub-066_task-eyesclosed_eeg.set"
+    },
+    {
+      "path": "sub-067/eeg/sub-067_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-067/eeg/sub-067_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-067/eeg/sub-067_task-eyesclosed_eeg.json",
+      "sha256": "694d1c6e91eaa50849dee405c35c9f286d24f69d23d6834ddaa95b472c229091",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-067/eeg/sub-067_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-068/eeg/sub-068_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-068/eeg/sub-068_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-068/eeg/sub-068_task-eyesclosed_eeg.json",
+      "sha256": "502389997d7413758aea734b54457fdc33553645f571e73636362d537d5b16b3",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-068/eeg/sub-068_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-069/eeg/sub-069_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-069/eeg/sub-069_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-069/eeg/sub-069_task-eyesclosed_eeg.json",
+      "sha256": "a24300284d7626e184cd122f0318d7889a04eb646e4b165640b61e5aae5b4e78",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-069/eeg/sub-069_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-070/eeg/sub-070_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-070/eeg/sub-070_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-070/eeg/sub-070_task-eyesclosed_eeg.json",
+      "sha256": "dfb2b4201d8e95fe0faa3fed87ebe80ef8625d92653f484810ef18772a24b0fa",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-070/eeg/sub-070_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-071/eeg/sub-071_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-071/eeg/sub-071_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-071/eeg/sub-071_task-eyesclosed_eeg.json",
+      "sha256": "383acad0ca2e537ca26cd8d901e20fb53d733a841983cb8bdee267e7f580d2f0",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-071/eeg/sub-071_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-072/eeg/sub-072_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-072/eeg/sub-072_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-072/eeg/sub-072_task-eyesclosed_eeg.json",
+      "sha256": "b429e539ce22b180b7363ebb945391032c6a299dc412a9d98ec1dcd8fa6d5600",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-072/eeg/sub-072_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-073/eeg/sub-073_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-073/eeg/sub-073_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-073/eeg/sub-073_task-eyesclosed_eeg.json",
+      "sha256": "6327b321c32111ff02743e5ba54cdf9f408d3e3f49e1d77ba5f0b6e9e4ae1a91",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-073/eeg/sub-073_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-074/eeg/sub-074_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-074/eeg/sub-074_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-074/eeg/sub-074_task-eyesclosed_eeg.json",
+      "sha256": "c3e626a6748dabb91cfb0ea13576400e6624db55a8c5113502c33c2a25c70f37",
+      "bytes": 869,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-074/eeg/sub-074_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-075/eeg/sub-075_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-075/eeg/sub-075_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-075/eeg/sub-075_task-eyesclosed_eeg.json",
+      "sha256": "3932ce3c9950e4e9def4cf56bed8fcff390190d3eda59536a461cd779384bcd7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-075/eeg/sub-075_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-076/eeg/sub-076_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-076/eeg/sub-076_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-076/eeg/sub-076_task-eyesclosed_eeg.json",
+      "sha256": "f5173d7df61db1d019dcd8187bffc246405223bfe6affaf8d77695f599ff6376",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-076/eeg/sub-076_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-077/eeg/sub-077_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-077/eeg/sub-077_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-077/eeg/sub-077_task-eyesclosed_eeg.json",
+      "sha256": "ef7fac4e6095e634674d807205bf1dc2616398d1e20a3adce029c4e0a75cb8e8",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-077/eeg/sub-077_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-078/eeg/sub-078_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-078/eeg/sub-078_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-078/eeg/sub-078_task-eyesclosed_eeg.json",
+      "sha256": "2483680f2b69bd1dac24ff5ec8d5f0ef2dd391521493158ab4d7d4d3d03a4a61",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-078/eeg/sub-078_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-079/eeg/sub-079_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-079/eeg/sub-079_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-079/eeg/sub-079_task-eyesclosed_eeg.json",
+      "sha256": "d1f6988f333206c33e8b047d3ff0766d18f992b0e53bf13f0e060ef4a2a2d6d4",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-079/eeg/sub-079_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-080/eeg/sub-080_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-080/eeg/sub-080_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-080/eeg/sub-080_task-eyesclosed_eeg.json",
+      "sha256": "87384cceb1622bba1a35d5b6e0dab3e3fdf900d16671ab8ede77cec7d86d72f9",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-080/eeg/sub-080_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-081/eeg/sub-081_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-081/eeg/sub-081_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-081/eeg/sub-081_task-eyesclosed_eeg.json",
+      "sha256": "f3af153133466c0fe9da23a5bffc4a688510da719a0b7b6832539e7c0ebaf65f",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-081/eeg/sub-081_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-082/eeg/sub-082_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-082/eeg/sub-082_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-082/eeg/sub-082_task-eyesclosed_eeg.json",
+      "sha256": "4af85b20405082e1f920253e6fb57181ab6b74923e2ba72e819e198b114cd2b5",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-082/eeg/sub-082_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-083/eeg/sub-083_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-eyesclosed_eeg.json",
+      "sha256": "f0d8433da9cead0f14e9ee50c16be329798d46ed84da4eea02009e5c7aa431c1",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-083/eeg/sub-083_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-084/eeg/sub-084_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-084/eeg/sub-084_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-084/eeg/sub-084_task-eyesclosed_eeg.json",
+      "sha256": "e630af26b9345830e3334054d535b7020cbc7847350c5f125cc2b5ea1c602739",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-084/eeg/sub-084_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-085/eeg/sub-085_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-085/eeg/sub-085_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-085/eeg/sub-085_task-eyesclosed_eeg.json",
+      "sha256": "a79cbd51f454ffdfa20b03c120ec7cf6e9eb72ba28df1f829206859ef17232df",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-085/eeg/sub-085_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-086/eeg/sub-086_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-eyesclosed_eeg.json",
+      "sha256": "648d58a2ce8acc0a12087c7ae5fb8e6a790275b037e02869001d0d8032d65e6f",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-086/eeg/sub-086_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-087/eeg/sub-087_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-087/eeg/sub-087_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-087/eeg/sub-087_task-eyesclosed_eeg.json",
+      "sha256": "2cc64b00d2b516b4ad8af115354350d33861e230eea1f727ed244e9fd0c8d2c7",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-087/eeg/sub-087_task-eyesclosed_eeg.json"
+    },
+    {
+      "path": "sub-088/eeg/sub-088_task-eyesclosed_channels.tsv",
+      "sha256": "b78bb6ff8de9632610902683435c62ed467ee81514ebff8ddd3cf29130842cf8",
+      "bytes": 284,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-088/eeg/sub-088_task-eyesclosed_channels.tsv"
+    },
+    {
+      "path": "sub-088/eeg/sub-088_task-eyesclosed_eeg.json",
+      "sha256": "5491ee129baf5b1769039a1208c189d9e64842301ccca242f53f735eed575f96",
+      "bytes": 868,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004504/63b2ec152bc3cd4487d131124f10f767ebe543bc/sub-088/eeg/sub-088_task-eyesclosed_eeg.json"
+    }
+  ]
+}

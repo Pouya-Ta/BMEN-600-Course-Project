@@ -1,0 +1,14 @@
+{
+  "epoch_seconds": 8.0,
+  "sampling_hz": null,
+  "reference": "preserve",
+  "normalization": "none",
+  "welch_seconds": 2.0,
+  "power_floor_uv2": 1e-12,
+  "flat_ptp_uv": 1e-6,
+  "amplitude_warning_uv": 1000.0,
+  "seed": 600,
+  "logistic_C": 1.0,
+  "class_weight": null,
+  "source": "derivatives"
+}

@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "classifier": "logistic",
+      "fold": 0,
+      "participant_overlap": 0,
+      "training_only_scaling_checked": true
+    },
+    {
+      "classifier": "logistic",
+      "fold": 1,
+      "participant_overlap": 0,
+      "training_only_scaling_checked": true
+    },
+    {
+      "classifier": "logistic",
+      "fold": 2,
+      "participant_overlap": 0,
+      "training_only_scaling_checked": true
+    },
+    {
+      "classifier": "logistic",
+      "fold": 3,
+      "participant_overlap": 0,
+      "training_only_scaling_checked": true
+    },
+    {
+      "classifier": "logistic",
+      "fold": 4,
+      "participant_overlap": 0,
+      "training_only_scaling_checked": true
+    }
+  ],
+  "complete_oof_coverage": true,
+  "finite_features": true,
+  "participant_count": 88,
+  "feature_count": 512,
+  "class_order": [
+    "AD",
+    "FTD",
+    "HC"
+  ],
+  "confusion_matrices": {
+    "logistic": [
+      [
+        18,
+        11,
+        7
+      ],
+      [
+        12,
+        2,
+        9
+      ],
+      [
+        5,
+        8,
+        16
+      ]
+    ]
+  },
+  "chance_balanced_accuracy": 0.3333333333333333,
+  "fold_sd": "Sample SD (ddof=1): descriptive split variability, not a confidence interval",
+  "hyperparameter_search": false
+}

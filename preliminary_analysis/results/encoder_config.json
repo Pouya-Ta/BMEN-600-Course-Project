@@ -1,0 +1,108 @@
+{
+  "checkpoint_provenance": {
+    "candidate": "BENDR",
+    "checkpoint_release": "v0.1-alpha",
+    "release_date": "2021-02-25T17:42:16Z",
+    "git_commits": {
+      "SPOClab-ca/BENDR": "5a6f49365a729852a5666aa744938aa4238f7ecd",
+      "SPOClab-ca/dn3": "dc54fc61895fa82ea73ad74c6bba10963cdadab2"
+    },
+    "files": [
+      {
+        "local_name": "bendr_dn3_ext.py",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/BENDR/5a6f49365a729852a5666aa744938aa4238f7ecd/dn3_ext.py",
+        "sha256": "8fb8583ad623144ea55b30f3ff8d13906b1fcab7f8db9434ad5e517a0e3c0712"
+      },
+      {
+        "local_name": "pretraining.yml",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/BENDR/5a6f49365a729852a5666aa744938aa4238f7ecd/configs/pretraining.yml",
+        "sha256": "99bbaaea8732509c1a69de91af8efe0615464e0ed417e6a994f7e3e3186c87b0"
+      },
+      {
+        "local_name": "downstream.yml",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/BENDR/5a6f49365a729852a5666aa744938aa4238f7ecd/configs/downstream.yml",
+        "sha256": "34f9fc9b20ad1f4b1c5bf7316971115ee319bc0010e072e2fafbbd979d3ebdd8"
+      },
+      {
+        "local_name": "bendr_utils.py",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/BENDR/5a6f49365a729852a5666aa744938aa4238f7ecd/utils.py",
+        "sha256": "b067a2990f78cca9801418a70b8dcf9dcee613f82de2ddc20317340bfe3e8164"
+      },
+      {
+        "local_name": "channels.py",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/dn3/dc54fc61895fa82ea73ad74c6bba10963cdadab2/dn3/transforms/channels.py",
+        "sha256": "a0b06eea4ca98f648ccd48bb8cc5552646797377533343614586430fe8f4a1a2"
+      },
+      {
+        "local_name": "instance.py",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/dn3/dc54fc61895fa82ea73ad74c6bba10963cdadab2/dn3/transforms/instance.py",
+        "sha256": "cef20193aa25526405f24f5310c457baa28427aa1b3163622db05664cdf649d2"
+      },
+      {
+        "local_name": "dn3_utils.py",
+        "url": "https://raw.githubusercontent.com/SPOClab-ca/dn3/dc54fc61895fa82ea73ad74c6bba10963cdadab2/dn3/utils.py",
+        "sha256": "026424a4a0af5e59ff23f669bc35b9c5d3ab3ea7a30d19051f0b32c28b40ece6"
+      },
+      {
+        "local_name": "encoder.pt",
+        "url": "https://github.com/SPOClab-ca/BENDR/releases/download/v0.1-alpha/encoder.pt",
+        "sha256": "32c913b1778d8bdf7f08bbe8ef5e6bef2954087b482851816deefc4d0fcf84cb",
+        "github_asset_id": 32625715,
+        "bytes": 15893001,
+        "published_digest": null
+      }
+    ],
+    "pretraining": "TUEG v1.1/v1.2; official pretraining config also uses BCI IV 2a for validation",
+    "overlap_assessment": "No known ds004504 overlap in documented pretraining/evaluation; release is from 2021 and ds004504 was released in 2023. No exhaustive participant identity audit is available.",
+    "dataset_finetuned_checkpoint": false,
+    "digest_note": "Locally computed SHA256 records asset identity; original release may lack an independently published digest."
+  },
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 16,
+  "shared_analysis_fingerprint": "bb4c2be3e1369d43830cfa4f2ae87700328535a9d9be30b84a98b53ee4187f0b",
+  "shared_intervals_sha256": "130c327ddec5c114dd2bfd47857b8b973cc51f54d7b8e3dbc25dd7e3afd9c342",
+  "adapter_source_sha256": "769bbc5ef51b6639cc9db24044e33f47c84463848261c26773d792af00d9b791",
+  "input_sample_rate_hz": 256,
+  "window_seconds": 8.0,
+  "input_channel_order": [
+    "FP1",
+    "FP2",
+    "F7",
+    "F3",
+    "FZ",
+    "F4",
+    "F8",
+    "T7",
+    "C3",
+    "CZ",
+    "C4",
+    "T8",
+    "T5",
+    "P3",
+    "PZ",
+    "P4",
+    "T6",
+    "O1",
+    "O2",
+    "SCALE"
+  ],
+  "source_units": "microvolts",
+  "dn3_input_units": "volts",
+  "normalization": "Official DN3 MappingDeep1010 per-window global EEG minmax to [-1,1]",
+  "scale_channel": "0: official missing dataset amplitude-bounds behavior; no cohort-derived normalization",
+  "resampling": "Official TemporalInterpolation nearest (after mapping); data already low-passed to 45 Hz",
+  "aliases": {
+    "T3": "T7",
+    "T4": "T8"
+  },
+  "representation": "ConvEncoderBENDR final convolution block, 512 channels, mean across time",
+  "participant_pooling": "Arithmetic mean of shared 8-second epoch embeddings",
+  "subdivision": "none; CNN accepts the full variable-length shared epoch",
+  "frozen": true,
+  "gradients": false,
+  "eval_mode": true,
+  "fine_tuning": false,
+  "embedding_fingerprint": "911bdd95e0656910175e54acbe09d1efb40279d818d281d67a3dc8e86aa78ce9"
+}

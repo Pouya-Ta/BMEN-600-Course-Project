@@ -1,0 +1,30 @@
+{
+  "numerical_smoke_checks": {
+    "sinusoid_absolute_power": true,
+    "relative_power_partition": true,
+    "amplitude_preservation": true,
+    "gap_mapping_and_epoch_rejection": true,
+    "synthetic_training_only_preprocessing": true,
+    "synthetic_tests_are_not_dataset_results": true
+  },
+  "real_data_checks": {
+    "real_participants": 88,
+    "real_epochs": 8464,
+    "feature_dimension": 152,
+    "complete_oof_coverage": true,
+    "no_subject_fold_overlap": true,
+    "training_only_scaling_and_imputation": true,
+    "mean_epoch_features_match": true,
+    "nonoverlapping_original_intervals": true,
+    "physical_units_preserved": true,
+    "no_demographic_predictors": true,
+    "encoder_checks": {
+      "feature_dimension": 512,
+      "matching_shared_intervals": true,
+      "participant_embedding_means_match_float32_tolerance": true,
+      "same_subject_folds_complete_oof": true,
+      "training_only_scaling_and_imputation": true,
+      "smoke_test_passed": true
+    }
+  }
+}

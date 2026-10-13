@@ -1,0 +1,91 @@
+{
+  "epoch_seconds": 8.0,
+  "sampling_hz": null,
+  "reference": "preserve",
+  "normalization": "none",
+  "welch_seconds": 2.0,
+  "power_floor_uv2": 1e-12,
+  "flat_ptp_uv": 1e-06,
+  "amplitude_warning_uv": 1000.0,
+  "seed": 600,
+  "logistic_C": 1.0,
+  "class_weight": null,
+  "source": "derivatives",
+  "dataset": "ds004504",
+  "dataset_version": "1.0.9",
+  "dataset_commit": "63b2ec152bc3cd4487d131124f10f767ebe543bc",
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "F3",
+    "F4",
+    "C3",
+    "C4",
+    "P3",
+    "P4",
+    "O1",
+    "O2",
+    "F7",
+    "F8",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "Fz",
+    "Cz",
+    "Pz"
+  ],
+  "bands_hz": {
+    "delta": [
+      1.0,
+      4.0
+    ],
+    "theta": [
+      4.0,
+      8.0
+    ],
+    "alpha": [
+      8.0,
+      13.0
+    ],
+    "beta": [
+      13.0,
+      30.0
+    ]
+  },
+  "relative_denominator_hz": [
+    1,
+    30
+  ],
+  "signal_units": "microvolts",
+  "psd_units": "microvolts^2/Hz",
+  "absolute_power_units": "microvolts^2",
+  "log_power": "log10(power / 1 microvolt^2)",
+  "welch_window": "hann",
+  "welch_overlap_fraction": 0.5,
+  "welch_detrend": "constant",
+  "welch_average": "mean",
+  "welch_scaling": "density",
+  "welch_nfft": "nperseg",
+  "integration": "trapezoid over interpolated PSD, exact endpoints; zero-measure shared boundaries",
+  "software": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "mne": "1.13.2",
+    "requests": "2.34.2",
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39"
+  },
+  "source_code_sha256": {
+    "download.py": "0c97dc2b55fadca36230dbe689dd894efd196aa2add9dcc2c13cac870f02b873",
+    "shared.py": "054716f40941690ac78b52d17149283571c4def2c42c86b9a52c99cdc1a9f4b2",
+    "features.py": "973df07434b8860a110429a41c13a19d286fbeb5e9317de7ffe003f729bf1e53",
+    "evaluation.py": "329ef4fa8e2bfaf259ab6c744bdfb645d2c8deb4b27f46d6b7807e4e8bcf7003",
+    "plots.py": "20cd996ec668cabcfceaa38acabaecfd2ada8799fb9b1902966361f1e101ce9e",
+    "run.py": "9b046035fca22dfb91307df39c943dc2364837fa8d114b2a093be5b51842d42b"
+  },
+  "analysis_fingerprint": "bb4c2be3e1369d43830cfa4f2ae87700328535a9d9be30b84a98b53ee4187f0b"
+}

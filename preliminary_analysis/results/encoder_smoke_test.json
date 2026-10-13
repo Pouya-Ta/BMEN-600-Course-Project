@@ -1,0 +1,19 @@
+{
+  "participant_id": "sub-001",
+  "input_shape": [
+    3,
+    20,
+    2048
+  ],
+  "encoded_shape": [
+    3,
+    512,
+    22
+  ],
+  "finite": true,
+  "different_inputs_produce_different_outputs": true,
+  "repeat_inference_identical": true,
+  "frozen_eval_no_grad": true,
+  "representations_not_logits": true,
+  "checkpoint_loaded_strictly": true
+}
