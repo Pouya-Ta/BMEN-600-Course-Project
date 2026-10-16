@@ -88,7 +88,7 @@ def summarize(output):
         lines.extend(["", "Optional encoder extraction is not complete; there are no fabricated embeddings or comparison results."])
     lines.extend(["", "Start with group_summary_compact.csv, group_psd.png/.pdf, relative_theta_alpha.png/.pdf, "
                   "spectral_metrics.csv, and the pooled OOF confusion matrices. "
-                  "See README_PRELIMINARY.md for reproduction, complete output definitions, and validation commands.", ""])
+                  "See [the preliminary workflow README](../README_PRELIMINARY.md) for reproduction, complete output definitions, and validation commands.", ""])
     (output / "RESULTS_NOTES.md").write_text("\n".join(lines))
     print(f"Saved {output / 'group_summary_compact.csv'} and {output / 'RESULTS_NOTES.md'}")
 

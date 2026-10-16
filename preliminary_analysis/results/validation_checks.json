@@ -20,8 +20,8 @@
     "no_demographic_predictors": true,
     "encoder_checks": {
       "feature_dimension": 512,
-      "matching_shared_intervals": true,
-      "participant_embedding_means_match_float32_tolerance": true,
+      "matching_shared_intervals": "skipped: ignored epoch cache absent; run encoder.py to regenerate",
+      "participant_embedding_means_match_float32_tolerance": "skipped: ignored epoch cache absent; run encoder.py to regenerate",
       "same_subject_folds_complete_oof": true,
       "training_only_scaling_and_imputation": true,
       "smoke_test_passed": true

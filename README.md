@@ -1,40 +1,117 @@
-# BMEN-600-Course-Project
-This repo contains the course materials and/or information and codes of our team project. 
+# BMEN 600: EEG classification of dementia
 
-Collaborators (without order):
-## Team Name 
-Seventieth
+Team **Seventieth** — Luke Fatovich, Pouya Taghipour L., Hamid Salmani,
+Dera Okemeziem, and David A. Martinez G.
 
-## Team Members Present
-1- Luke Fatovich
+**Research question:** Do frozen pretrained EEG representations with a linear probe
+outperform handcrafted spectral features for distinguishing Alzheimer's disease (AD),
+frontotemporal dementia (FTD), and healthy controls (HC) when data are limited?
 
-2- Pouya Taghipour L. 
+**Repository:** <https://github.com/Pouya-Ta/BMEN-600-Course-Project>
 
-3- Hamid Salmani
+## Open the current progress check
 
-4- Dera Okemeziem
+Start with [preliminary results and limitations](preliminary_analysis/results/RESULTS_NOTES.md),
+the [participant summary table](preliminary_analysis/results/group_summary_compact.csv),
+and the [group EEG spectra](preliminary_analysis/results/group_psd.png).
+These committed outputs can be viewed on GitHub without installing software or downloading EEG.
+The [baseline scores](preliminary_analysis/results/spectral_metrics.csv) and
+[representation comparison](preliminary_analysis/results/representation_comparison.csv)
+contain the current classification results.
 
-5- David A. Martinez G.
+The workflow retained 88 participants (36 AD, 23 FTD, 29 HC) and 8,464 usable eight-second
+epochs. Five fixed participant-level folds keep each person's epochs together.
+Mean fold balanced accuracy is 0.500 for spectral logistic regression, 0.386 for the
+frozen BENDR encoder plus logistic regression, and 0.333 for the majority-class baseline.
+These are preliminary single-site results with weak FTD recall and no external validation;
+they do not establish clinical utility or model superiority.
 
-## Project
+## Dataset access and availability
 
-### Biomedical Problem 
+Use [OpenNeuro ds004504, version 1.0.9](https://openneuro.org/datasets/ds004504/versions/1.0.9)
+([DOI](https://doi.org/10.18112/openneuro.ds004504.v1.0.9)). It contains eyes-closed
+resting EEG, 19 channels, raw recordings, supplied cleaned derivatives, and participant metadata.
+The analysis uses the supplied derivatives; the downloader also obtains three raw QC examples.
+The pinned [dataset metadata](https://github.com/OpenNeuroDatasets/ds004504/blob/1.0.9/dataset_description.json)
+licenses the dataset under **CC0**. Public download requires no account or application.
 
-Alzheimer’s disease (AD) and frontotemporal dementia (FTD) are clinically similar in the early stages, and distinguishing between them currently requires neuropsychological evaluation, neuroimaging, or cerebrospinal fluid (CSF) biomarkers, all of which are expensive or invasive. Resting EEG is inexpensive, noninvasive, and available in small clinics, so an EEG-based marker that can distinguish between AD, FTD, and healthy controls (HC) would be useful as a triage tool or to aid in differential diagnosis.
+EEG files (~2.9 GB), model weights, environments, and caches are downloaded separately
+and excluded from Git for size and reproducibility. There is no dataset access restriction
+identified in the published snapshot. Code is available under the [MIT license](LICENSE);
+third-party data and model materials retain their own terms. See the complete
+[Data and Code Availability statement](DATA_AND_CODE_AVAILABILITY.md).
 
-### Possible Research Question
+## Setup and reproduce
 
-Do foundational EEG models, using only a single linear probe, outperform classic, hand-designed features in the differential diagnosis of AD/FTD/HC when data are limited?
+Platform: **Python scripts on Linux, CPU**. The saved run used Python **3.12.3**;
+use Python 3.12. Main packages are NumPy, SciPy, pandas, scikit-learn, Matplotlib,
+MNE, and requests, pinned in [requirements.txt](preliminary_analysis/requirements.txt).
+A GPU, notebook server, and MATLAB are unnecessary. Internet access and several GB
+of free storage are needed for a full rerun.
 
-### Dataset 
+Run these commands in a Linux/macOS terminal. On Windows, use WSL for these shell commands.
 
-OpenNeuro ds004504: Resting-state EEG (eyes closed) with 19 channels (10-20 system), from approximately 88 participants: about 36 with AD, 23 with FTD, and 29 controls. It includes raw data and a version that has already been filtered and cleaned using ICA. The metadata includes age, sex, and MMSE score for each subject.
+```bash
+git clone https://github.com/Pouya-Ta/BMEN-600-Course-Project.git
+cd BMEN-600-Course-Project
+python3.12 -m venv preliminary_analysis/.venv
+source preliminary_analysis/.venv/bin/activate
+python -m pip install -r preliminary_analysis/requirements.txt
+```
 
-### Biggest Uncertainty
+For a quick progress check using the committed outputs, without downloading EEG:
 
-The greatest risk is that the result will be more optimistic than reality due to the size and structure of the data
+```bash
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python preliminary_analysis/validate.py \
+  --output-dir preliminary_analysis/results
+python preliminary_analysis/summarize.py --output-dir preliminary_analysis/results
+```
 
-  - Cross-epoch information leakage: With only ~88 subjects, if a subject’s training and test epochs overlap, the accuracy is inflated. Validation by subject is needed (leave-subject-out or nested CV), and even then, the variance will be high.
-  - No external validation: all data comes from a single site and a single team, so I don’t know if the findings generalize to other clinics or setups.
+This checks numerical behavior and saved real-data outputs, then regenerates
+`group_summary_compact.csv` and `RESULTS_NOTES.md`. It does not rerun signal extraction.
+A successful validation exits with code 0 and prints a JSON check report.
+The ignored encoder epoch cache is unnecessary for this check: if absent, the report
+explicitly marks encoder interval/epoch-mean checks as skipped. Regenerate it with
+`encoder.py` to include those checks.
 
-<img width="842" height="238" alt="2026-10-02_13-56-43" src="https://github.com/user-attachments/assets/1e0d80dd-26e9-4892-8862-419293fac6fe" />
+For a full baseline rerun from source EEG, keep commands at the repository root:
+
+```bash
+python preliminary_analysis/download.py --data-dir preliminary_analysis/data/ds004504
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python preliminary_analysis/run.py \
+  --data-dir preliminary_analysis/data/ds004504 \
+  --output-dir preliminary_analysis/results \
+  --config preliminary_analysis/config.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python preliminary_analysis/validate.py \
+  --output-dir preliminary_analysis/results
+python preliminary_analysis/summarize.py --output-dir preliminary_analysis/results
+```
+
+This regenerates participant/channel QC, spectral features, group tables and figures,
+folds, predictions, and baseline scores. The downloader verifies snapshot checksums
+and creates the required download manifest; a manually copied EEG folder alone is insufficient.
+These commands update the saved baseline outputs. Use a separate output directory
+if changing the scientific configuration.
+
+The optional BENDR comparison needs CPU PyTorch and separately downloaded pretrained
+weights/source. Follow the [detailed workflow](preliminary_analysis/README_PRELIMINARY.md#optional-frozen-encoder)
+for its installation and run commands, preprocessing, provenance, and limitations.
+The same document explains all outputs and the repeated-run hash comparison.
+
+## File map
+
+| Path | Purpose |
+|---|---|
+| [preliminary_analysis/README_PRELIMINARY.md](preliminary_analysis/README_PRELIMINARY.md) | Detailed reproduction, methods, optional encoder, output definitions |
+| [preliminary_analysis/download.py](preliminary_analysis/download.py) | Retrieve and verify the pinned dataset |
+| [preliminary_analysis/run.py](preliminary_analysis/run.py), [config.json](preliminary_analysis/config.json) | Current end-to-end QC, spectral summaries, and classification baseline |
+| `preliminary_analysis/{shared,features,evaluation,plots}.py` | Loading/epoching, spectral features, participant-level evaluation, plotting |
+| [preliminary_analysis/encoder.py](preliminary_analysis/encoder.py) | Optional frozen BENDR representations and linear probe |
+| `preliminary_analysis/{validate,summarize,check_reproducibility}.py` | Integrity checks, report tables/notes, repeated-run comparison |
+| `preliminary_analysis/requirements*.txt` | Pinned baseline and optional encoder dependencies |
+| [preliminary_analysis/results/](preliminary_analysis/results/) | Committed preliminary outputs, provenance, settings, and software versions |
+| `preliminary_analysis/data/`, `results/cache/`, `models/`, `vendor/` | Generated local downloads/caches; ignored by Git |
+| [analysis/](analysis/) | Earlier exploratory raw-EEG scripts and figures; current reproduction starts in `preliminary_analysis/` |
+| [Project-plan/](Project-plan/) | Team planning spreadsheet |
+| [Code/](Code/) | Original project scaffold; current executable code is in `preliminary_analysis/` |
+| [DATA_AND_CODE_AVAILABILITY.md](DATA_AND_CODE_AVAILABILITY.md) | Dataset source, licensing, access, and omitted materials |

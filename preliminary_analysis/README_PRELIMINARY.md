@@ -1,8 +1,9 @@
 # BMEN 600 preliminary EEG workflow
 
-This additive workflow implements dataset QC, participant-weighted spectral summaries,
+This workflow implements dataset QC, participant-weighted spectral summaries,
 and a fixed handcrafted classification baseline. Code and local outputs live in
-`preliminary_analysis/`; the existing README, project plans, and analysis scripts are preserved.
+`preliminary_analysis/`. Start with the [repository README](../README.md) for the project overview
+and [availability statement](../DATA_AND_CODE_AVAILABILITY.md).
 The optional frozen BENDR convolutional encoder uses the same intervals and saved participant folds.
 No research report, fine-tuning, feature search, connectivity, complexity, or feature fusion is included.
 
@@ -243,7 +244,12 @@ All paths below are relative to `preliminary_analysis/results/`.
 
 `validate.py` checks real subject coverage/folds, finite dimensions, equal-epoch averaging,
 original-time nonoverlap, preserved units, excluded metadata predictors, and complete OOF
-probability coverage. The classifier checks its fitted imputer/scaler against the training
+probability coverage. On a fresh clone, the ignored encoder epoch embedding cache is
+absent: validation still checks committed participant embeddings, encoder predictions,
+folds, and saved runtime/smoke reports, but explicitly marks encoder interval matching
+and epoch-to-participant averaging as skipped. Running `encoder.py` regenerates the
+cache and enables those additional checks. Saved smoke reports document prior inference;
+`validate.py` does not itself rerun encoder inference. The classifier checks its fitted imputer/scaler against the training
 participants on every fold. Numerical smoke checks use a labelled synthetic signal/data
 only to verify integration, amplitude scaling, gap handling, rejection, and fitting mechanics.
 **Synthetic checks are not preliminary scientific results.**
@@ -262,7 +268,7 @@ inference is freshly checked on the first participant; remaining valid embedding
 are reused. Execution date/cache-hit counts may change; scientific QC fields must agree.
 
 Steps 1–3 are complete on the actual 88-participant snapshot, with all requested baseline
-artifacts saved. The optional frozen encoder was also run; see `RESULTS_NOTES.md` for measured
+artifacts saved. The optional frozen encoder was also run; see [results/RESULTS_NOTES.md](results/RESULTS_NOTES.md) for measured
 results. This supports a preliminary feasibility discussion for October 16, 2026, with
 single-site and small-sample limitations, weak FTD recall, residual artifacts, and provenance
 uncertainties. It does not establish clinical validation or superiority to other study protocols.

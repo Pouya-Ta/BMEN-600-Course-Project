@@ -95,19 +95,24 @@ def real_checks(output):
     if (output / "encoder_config.json").exists():
         encoder_config = json.loads((output / "encoder_config.json").read_text())
         assert encoder_config["shared_analysis_fingerprint"] == config["analysis_fingerprint"]
-        embeddings = pd.read_csv(output / "encoder_epoch_embeddings.csv.gz")
         subjects = pd.read_csv(output / "encoder_participant_embeddings.csv")
         encoder_oof = pd.read_csv(output / "bendr_oof_predictions.csv")
         assert subjects.participant_id.is_unique and set(subjects.participant_id) == included
         assert encoder_oof.participant_id.is_unique and set(encoder_oof.participant_id) == included
-        times = ["participant_id", "group", "recording_path", "source_start_sample", "source_end_sample",
-                 "source_start_seconds", "source_end_seconds", "original_start_seconds", "original_end_seconds"]
-        pd.testing.assert_frame_equal(epochs[times].reset_index(drop=True), embeddings[times].reset_index(drop=True))
         columns = [f"bendr_{i:03d}" for i in range(512)]
-        recomputed = embeddings.groupby("participant_id")[columns].mean().loc[subjects.participant_id]
-        # Official torch outputs and epoch pooling use float32; CSV reload/means use float64.
-        np.testing.assert_allclose(recomputed, subjects[columns], rtol=1e-5, atol=1e-6)
-        assert np.isfinite(embeddings[columns]).all().all()
+        assert np.isfinite(subjects[columns]).all().all()
+        epoch_cache = output / "encoder_epoch_embeddings.csv.gz"
+        epoch_checks = "skipped: ignored epoch cache absent; run encoder.py to regenerate"
+        if epoch_cache.exists():
+            embeddings = pd.read_csv(epoch_cache)
+            times = ["participant_id", "group", "recording_path", "source_start_sample", "source_end_sample",
+                     "source_start_seconds", "source_end_seconds", "original_start_seconds", "original_end_seconds"]
+            pd.testing.assert_frame_equal(epochs[times].reset_index(drop=True), embeddings[times].reset_index(drop=True))
+            recomputed = embeddings.groupby("participant_id")[columns].mean().loc[subjects.participant_id]
+            # Official torch outputs and epoch pooling use float32; CSV reload/means use float64.
+            np.testing.assert_allclose(recomputed, subjects[columns], rtol=1e-5, atol=1e-6)
+            assert np.isfinite(embeddings[columns]).all().all()
+            epoch_checks = "passed"
         checked = encoder_oof.merge(folds, on=["participant_id", "group"], validate="one_to_one")
         assert checked.fold_x.equals(checked.fold_y)
         np.testing.assert_allclose(encoder_oof[[f"probability_{c}" for c in CLASSES]].sum(axis=1), 1., atol=1e-12)
@@ -117,8 +122,8 @@ def real_checks(output):
         assert all(smoke[key] for key in ["finite", "different_inputs_produce_different_outputs",
                                           "repeat_inference_identical", "frozen_eval_no_grad",
                                           "representations_not_logits", "checkpoint_loaded_strictly"])
-        report["encoder_checks"] = {"feature_dimension": 512, "matching_shared_intervals": True,
-                                    "participant_embedding_means_match_float32_tolerance": True,
+        report["encoder_checks"] = {"feature_dimension": 512, "matching_shared_intervals": epoch_checks,
+                                    "participant_embedding_means_match_float32_tolerance": epoch_checks,
                                     "same_subject_folds_complete_oof": True,
                                     "training_only_scaling_and_imputation": True, "smoke_test_passed": True}
     return report

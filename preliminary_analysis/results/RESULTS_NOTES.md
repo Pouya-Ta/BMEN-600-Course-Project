@@ -36,4 +36,4 @@ Optional step 4 completed with the official 2021 BENDR encoder release: frozen c
 No ds004504 overlap is documented in the official pretraining/evaluation configurations, and the checkpoint predates the dataset release. An exhaustive participant-level contamination audit is unavailable. The comparison is a preliminary protocol-specific result; paired folds do not justify a superiority claim.
 Encoder extraction ran on cpu. NVIDIA NVML reported a driver/library mismatch on this computer; system drivers were not changed. The optional CPU installation and extraction succeeded.
 
-Start with group_summary_compact.csv, group_psd.png/.pdf, relative_theta_alpha.png/.pdf, spectral_metrics.csv, and the pooled OOF confusion matrices. See README_PRELIMINARY.md for reproduction, complete output definitions, and validation commands.
+Start with group_summary_compact.csv, group_psd.png/.pdf, relative_theta_alpha.png/.pdf, spectral_metrics.csv, and the pooled OOF confusion matrices. See [the preliminary workflow README](../README_PRELIMINARY.md) for reproduction, complete output definitions, and validation commands.
