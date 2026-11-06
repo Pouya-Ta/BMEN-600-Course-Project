@@ -1,0 +1,25 @@
+{
+  "dataset_participant_count": 88,
+  "metadata_group_counts": {
+    "AD": 36,
+    "HC": 29,
+    "FTD": 23
+  },
+  "included_group_counts": {
+    "AD": 36,
+    "HC": 29,
+    "FTD": 23
+  },
+  "exclusions": [],
+  "all_participants_matched_one_recording": true,
+  "unmatched_recordings": [],
+  "independent_mne_microvolt_check_passed": true,
+  "analysis_fingerprint": "bb4c2be3e1369d43830cfa4f2ae87700328535a9d9be30b84a98b53ee4187f0b",
+  "source_cache_hits": 88,
+  "amplitude_warning_uv": 1000.0,
+  "amplitude_warning_policy": "review only, no automatic amplitude rejection",
+  "flat_policy": "exclude epochs containing any channel with peak-to-peak <= numerical flat tolerance",
+  "preprocessing_discrepancy": "README calls filter Butterworth; supplied histories use pop_eegfiltnew. Raw acquisition README and sidecars disagree on reference/filter details.",
+  "original_mapping": "clean_sample_mask verified against every internal EEGLAB boundary event",
+  "run_date": "2026-10-10"
+}

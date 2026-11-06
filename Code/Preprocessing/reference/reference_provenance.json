@@ -1,0 +1,55 @@
+{
+  "access_date": "2026-10-14",
+  "project_commit": "7fa3c0491839cd2157bf9bec1be4370b28cafecf",
+  "dataset_tag": "1.0.9",
+  "project_source": "https://github.com/Pouya-Ta/BMEN-600-Course-Project",
+  "dataset_source": "https://github.com/OpenNeuroDatasets/ds004504/tree/1.0.9",
+  "execution_policy": "Reference scripts are read only; not imported or executed",
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "1ecfd9f6c933baf1a2e278326a2fb09937ac4482030954455993d41734e54055",
+      "git_blob_sha1": "3d90ed98360c7c3ff688ea9e0b6063e4f9e075a1"
+    },
+    {
+      "file": "README_PRELIMINARY.md",
+      "sha256": "85a00e68fda3c18252c787180ed33ebbf7beb8b7c9d9ead46671219b8c367c6b",
+      "git_blob_sha1": "6358d1e38be6d0028d00044d85114ba8427e77df"
+    },
+    {
+      "file": "ds004504-1.0.9.tar.gz",
+      "sha256": "d0e71c163337666b81c5bcaf0e139d98996e61e877a597017e34c1bb839e543c",
+      "git_blob_sha1": "59dbb08cd866db76428d3f0d58d6a392b1c45edd"
+    },
+    {
+      "file": "preliminary_analysis__config.json",
+      "sha256": "984406ce3218277fc785d4f4b7696d04f6c4fd74834f99898083012463cdeaac",
+      "git_blob_sha1": "952ec34ff971162172c9ef818a94ca1879d25a7f"
+    },
+    {
+      "file": "preliminary_analysis__encoder.py",
+      "sha256": "769bbc5ef51b6639cc9db24044e33f47c84463848261c26773d792af00d9b791",
+      "git_blob_sha1": "4829ad1bc59e90ec87601dcbe20935c2d5257680"
+    },
+    {
+      "file": "preliminary_analysis__results__qc_summary.json",
+      "sha256": "819faa688fb18d95fb760d24956c595421520c23e596cbb37ad00f0104251d2d",
+      "git_blob_sha1": "804b2d123c3414da45ee722a7dd4c14b994aae13"
+    },
+    {
+      "file": "preliminary_analysis__results__recording_histories.json",
+      "sha256": "c48ab07fbd6b4a7be6bd90667c7d7771c96cf29129745da9866b64fdf41e6598",
+      "git_blob_sha1": "95c56c82ddee4e5973a709fd813dc1785b1ed99a"
+    },
+    {
+      "file": "preliminary_analysis__run.py",
+      "sha256": "9b046035fca22dfb91307df39c943dc2364837fa8d114b2a093be5b51842d42b",
+      "git_blob_sha1": "f9024355c7abcaa004880cd1e31db9c8d9368bbe"
+    },
+    {
+      "file": "preliminary_analysis__shared.py",
+      "sha256": "054716f40941690ac78b52d17149283571c4def2c42c86b9a52c99cdc1a9f4b2",
+      "git_blob_sha1": "2d7b0f18b9a5d572f90b9acc7f362dfaaab910b6"
+    }
+  ]
+}
